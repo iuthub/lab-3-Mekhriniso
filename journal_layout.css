@@ -1,0 +1,45 @@
+.container{
+	border: 10px white solid;
+	background-color: white;  
+    overflow: hidden;
+}
+.subcontainer1{
+    background-color: #A8F0F0 ;
+    text-align: right;
+}
+.subsubcontainer1 h2{
+	font-size: 14pt;
+}
+.subcontainer2, .subcontainer3{
+	border: 4px #C2E9E9 solid;
+	background-color: #E8FBFB;
+	padding: 5px 5px;
+	margin-top: 10px;
+    overflow: hidden;
+    
+}
+.subcontainer4{
+    float: left;
+    padding: 5px;
+    border: 5px #009097 solid;
+    background-color: #99E0E0;
+    margin-top: 10px;
+}
+.union{
+    margin-left: 190px;
+    
+}
+span{
+    border-bottom: 2px #009097 dashed;
+}
+body{
+    background-image: url(https://courses.cs.washington.edu/courses/cse190m/09sp/labs/2-journal/solution/images/background.gif);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.container img{
+    float: right;
+}
+* *:hover {
+	background-color: lightblue;
+}
